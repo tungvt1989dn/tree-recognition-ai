@@ -1,4 +1,21 @@
+# Streamlit
 streamlit==1.28.0
+
+# PyTorch & torchvision (tương thích Python 3.11)
 torch==2.9.0
 torchvision==0.24.0
-Pillow==9.5.0   # <- giảm từ 10.0.0
+
+# Pillow (chọn bản tương thích Python 3.11)
+Pillow==9.4.0
+
+# Các thư viện phụ trợ cần thiết
+numpy>=1.24.0
+pandas>=2.1.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+
+# Logging & hiển thị đẹp hơn
+rich>=14.2.0
+markdown-it-py>=4.0.0
+mdurl~=0.1
+pygments>=2.19.0
