@@ -1,0 +1,371 @@
+[
+  {
+    "scientific_name": "Ficus lyrata",
+    "common_name": "Cây bàng Singapore",
+    "description": "Cây nội thất sang trọng, lá to bóng đẹp, thích hợp đặt phòng khách hoặc văn phòng.",
+    "light": "Ánh sáng gián tiếp, gần cửa sổ.",
+    "water": "Vừa phải, tránh ngập úng.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Mang lại may mắn, thịnh vượng cho gia chủ."
+  },
+  {
+    "scientific_name": "Sansevieria trifasciata",
+    "common_name": "Cây lưỡi hổ",
+    "description": "Cây dễ sống, lọc không khí tốt, chịu được bóng râm.",
+    "light": "Ánh sáng yếu đến trung bình.",
+    "water": "Ít nước.",
+    "watering_frequency": "1 lần/tuần.",
+    "fengshui": "Xua đuổi tà khí, mang lại bình an."
+  },
+  {
+    "scientific_name": "Epipremnum aureum",
+    "common_name": "Cây trầu bà",
+    "description": "Cây leo xanh tốt, thường được trồng trong nhà hoặc chậu treo.",
+    "light": "Ánh sáng tán xạ.",
+    "water": "Giữ ẩm nhẹ.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Mang lại tài lộc, thịnh vượng."
+  },
+  {
+    "scientific_name": "Monstera deliciosa",
+    "common_name": "Cây trầu bà lá xẻ (Monstera)",
+    "description": "Lá to xẻ đẹp, biểu tượng cho sự phát triển và trường tồn.",
+    "light": "Ánh sáng tán xạ mạnh.",
+    "water": "Giữ ẩm trung bình.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Mang lại năng lượng tích cực và sinh khí."
+  },
+  {
+    "scientific_name": "Dracaena fragrans",
+    "common_name": "Cây phát tài",
+    "description": "Thân vươn cao, lá xanh bóng, biểu tượng cho tài lộc.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Vừa phải.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Mang lại tiền tài, vận may."
+  },
+  {
+    "scientific_name": "Zamioculcas zamiifolia",
+    "common_name": "Cây kim tiền",
+    "description": "Cây lá xanh đậm, mọng nước, dễ chăm sóc, hợp văn phòng.",
+    "light": "Ánh sáng yếu.",
+    "water": "Ít nước.",
+    "watering_frequency": "1 lần/tuần.",
+    "fengshui": "Mang lại tài lộc, phú quý."
+  },
+  {
+    "scientific_name": "Aglaonema modestum",
+    "common_name": "Cây ngọc ngân",
+    "description": "Lá xanh đốm trắng, cây ưa bóng râm, rất được yêu thích làm cảnh.",
+    "light": "Ánh sáng yếu đến trung bình.",
+    "water": "Giữ ẩm nhẹ.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Mang đến tình duyên và may mắn."
+  },
+  {
+    "scientific_name": "Chlorophytum comosum",
+    "common_name": "Cây lan chi",
+    "description": "Cây nhỏ, lá sọc trắng xanh, lọc không khí tốt.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Vừa phải.",
+    "watering_frequency": "3 lần/tuần.",
+    "fengshui": "Tăng cường năng lượng tích cực, xua tan khí xấu."
+  },
+  {
+    "scientific_name": "Dypsis lutescens",
+    "common_name": "Cây cau vàng",
+    "description": "Cây thân bụi, lá xanh nhạt, hợp trồng sân vườn hoặc sảnh.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "3–4 lần/tuần.",
+    "fengshui": "Mang lại sinh khí, may mắn."
+  },
+  {
+    "scientific_name": "Ficus benjamina",
+    "common_name": "Cây si cảnh",
+    "description": "Thân uốn bonsai, lá xanh dày, dễ tạo dáng.",
+    "light": "Ánh sáng tán xạ mạnh.",
+    "water": "Giữ ẩm đều.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Mang lại sự bền vững, gắn kết gia đình."
+  },
+  {
+    "scientific_name": "Schefflera arboricola",
+    "common_name": "Cây ngũ gia bì",
+    "description": "Cây thân gỗ nhỏ, lá kép xanh bóng, thích hợp trồng chậu.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Vừa phải.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Tăng cường tài vận và sức khỏe."
+  },
+  {
+    "scientific_name": "Pachira aquatica",
+    "common_name": "Cây kim ngân",
+    "description": "Cây thân xoắn, lá xanh tươi, mang ý nghĩa tài lộc.",
+    "light": "Ánh sáng tán xạ.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Thu hút tiền tài và thịnh vượng."
+  },
+  {
+    "scientific_name": "Codiaeum variegatum",
+    "common_name": "Cây vạn lộc",
+    "description": "Lá nhiều màu sắc, nổi bật trong không gian nội thất.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "3 lần/tuần.",
+    "fengshui": "Tăng tài lộc, thịnh vượng."
+  },
+  {
+    "scientific_name": "Anthurium andraeanum",
+    "common_name": "Cây hồng môn",
+    "description": "Hoa đỏ hình trái tim, rất được ưa chuộng làm quà tặng.",
+    "light": "Ánh sáng tán xạ.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Biểu tượng cho tình yêu và hạnh phúc."
+  },
+  {
+    "scientific_name": "Spathiphyllum wallisii",
+    "common_name": "Cây lan ý",
+    "description": "Hoa trắng, lá xanh đậm, thanh lọc không khí tốt.",
+    "light": "Ánh sáng yếu đến trung bình.",
+    "water": "Giữ ẩm.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Biểu tượng cho hòa bình và an yên."
+  },
+  {
+    "scientific_name": "Ficus elastica",
+    "common_name": "Cây đa búp đỏ",
+    "description": "Lá dày bóng, sống khỏe trong môi trường ít sáng.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Vừa phải.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Mang lại quyền lực và vững chắc."
+  },
+  {
+    "scientific_name": "Crassula ovata",
+    "common_name": "Cây ngọc bích",
+    "description": "Cây mọng nước, tượng trưng cho sự sung túc.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Ít nước.",
+    "watering_frequency": "1–2 lần/tuần.",
+    "fengshui": "Mang lại tài lộc và may mắn."
+  },
+  {
+    "scientific_name": "Cactus spp.",
+    "common_name": "Xương rồng",
+    "description": "Cây mọng nước chịu hạn, đa dạng hình dáng.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Rất ít nước.",
+    "watering_frequency": "1 lần/2 tuần.",
+    "fengshui": "Bảo vệ gia chủ khỏi điều xấu."
+  },
+  {
+    "scientific_name": "Aloe vera",
+    "common_name": "Cây lô hội",
+    "description": "Cây thân mọng, có nhiều công dụng làm đẹp và y học.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Ít nước.",
+    "watering_frequency": "1 lần/tuần.",
+    "fengshui": "Mang lại năng lượng và sức khỏe."
+  },
+  {
+    "scientific_name": "Bonsai Ficus microcarpa",
+    "common_name": "Cây sanh bonsai",
+    "description": "Dáng cổ thụ nhỏ, biểu tượng cho sự trường tồn.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Mang lại sự bền vững và trường thọ."
+  },
+  {
+    "scientific_name": "Asplenium nidus",
+    "common_name": "Cây tổ điểu",
+    "description": "Lá mọc xòe như tổ chim, xanh mướt, ưa ẩm, dễ trồng trong nhà.",
+    "light": "Ánh sáng yếu đến trung bình.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Tượng trưng cho sự bảo vệ và bình an trong gia đình."
+  },
+  {
+    "scientific_name": "Calathea makoyana",
+    "common_name": "Cây đuôi công",
+    "description": "Lá có họa tiết đẹp mắt như lông công, cây nội thất được ưa chuộng.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Giữ ẩm nhẹ.",
+    "watering_frequency": "3 lần/tuần.",
+    "fengshui": "Mang lại may mắn và vẻ đẹp sang trọng."
+  },
+  {
+    "scientific_name": "Peperomia obtusifolia",
+    "common_name": "Cây trầu bà chân vịt mini",
+    "description": "Cây nhỏ, lá mọng nước, phù hợp bàn làm việc.",
+    "light": "Ánh sáng yếu.",
+    "water": "Ít nước.",
+    "watering_frequency": "1–2 lần/tuần.",
+    "fengshui": "Tạo năng lượng tích cực, giảm căng thẳng."
+  },
+  {
+    "scientific_name": "Philodendron hederaceum",
+    "common_name": "Cây trầu bà tim",
+    "description": "Lá hình trái tim mềm mại, hợp trồng chậu treo hoặc leo cột.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Giữ ẩm trung bình.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Tăng cường tình duyên và sự gắn kết."
+  },
+  {
+    "scientific_name": "Dieffenbachia amoena",
+    "common_name": "Cây vạn niên thanh",
+    "description": "Lá lớn có đốm sáng, biểu tượng cho sự trường thọ.",
+    "light": "Ánh sáng tán xạ.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Mang đến may mắn và sức khỏe."
+  },
+  {
+    "scientific_name": "Nephrolepis exaltata",
+    "common_name": "Cây dương xỉ",
+    "description": "Cây thân thảo, lá dài cong rủ, giúp lọc không khí rất tốt.",
+    "light": "Ánh sáng yếu đến trung bình.",
+    "water": "Giữ ẩm thường xuyên.",
+    "watering_frequency": "3–4 lần/tuần.",
+    "fengshui": "Tăng cường sinh khí, xua tan năng lượng tiêu cực."
+  },
+  {
+    "scientific_name": "Areca catechu",
+    "common_name": "Cây cau cảnh",
+    "description": "Cây thân thẳng, lá xanh, hợp trồng sân vườn hoặc tiền sảnh.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Tượng trưng cho thăng tiến và phát triển bền vững."
+  },
+  {
+    "scientific_name": "Euphorbia milii",
+    "common_name": "Cây hoa mười giờ Thái (xương rồng bát tiên)",
+    "description": "Cây có gai, hoa rực rỡ, nở quanh năm.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Ít nước.",
+    "watering_frequency": "1–2 lần/tuần.",
+    "fengshui": "Mang lại may mắn, bảo vệ gia đình khỏi xui xẻo."
+  },
+  {
+    "scientific_name": "Pothos neon",
+    "common_name": "Cây trầu bà vàng",
+    "description": "Lá màu xanh vàng, tươi sáng, dễ trồng thủy sinh.",
+    "light": "Ánh sáng trung bình.",
+    "water": "Giữ ẩm nhẹ.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Mang năng lượng dồi dào và hạnh phúc."
+  },
+  {
+    "scientific_name": "Dracaena sanderiana",
+    "common_name": "Cây phát lộc (trúc phát tài)",
+    "description": "Thân trúc xoắn, thường trồng thủy sinh, tượng trưng cho may mắn.",
+    "light": "Ánh sáng yếu đến trung bình.",
+    "water": "Thay nước định kỳ.",
+    "watering_frequency": "2 lần/tuần hoặc khi thay nước.",
+    "fengshui": "Thu hút tài lộc, sự thăng tiến trong công việc."
+  },
+  {
+    "scientific_name": "Tradescantia zebrina",
+    "common_name": "Cây thài lài tím",
+    "description": "Lá sọc tím đẹp, sinh trưởng nhanh, hợp trồng chậu treo.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "3 lần/tuần.",
+    "fengshui": "Tăng năng lượng sáng tạo và sự tươi mới."
+  },
+  {
+    "scientific_name": "Succulent spp.",
+    "common_name": "Cây sen đá",
+    "description": "Cây mọng nước nhỏ, dễ trồng, nhiều màu sắc đẹp.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Ít nước.",
+    "watering_frequency": "1 lần/tuần.",
+    "fengshui": "Biểu tượng cho tình yêu bền chặt."
+  },
+  {
+    "scientific_name": "Codiaeum variegatum pictum",
+    "common_name": "Cây vạn niên đỏ",
+    "description": "Lá pha màu đỏ cam, đẹp rực rỡ, hợp trồng trong nhà.",
+    "light": "Ánh sáng trung bình.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Tăng may mắn, mang lại sức sống."
+  },
+  {
+    "scientific_name": "Dracaena marginata",
+    "common_name": "Cây huyết dụ",
+    "description": "Cây thân mảnh, lá dài có viền đỏ, dễ chăm sóc.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Giữ ẩm nhẹ.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Mang lại năng lượng tích cực, trừ tà khí."
+  },
+  {
+    "scientific_name": "Areca palm mini",
+    "common_name": "Cây cau tiểu trâm",
+    "description": "Cây nhỏ, dáng thanh mảnh, hợp để bàn hoặc tặng quà.",
+    "light": "Ánh sáng yếu đến trung bình.",
+    "water": "Giữ ẩm vừa.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Giúp cân bằng năng lượng và thư giãn tinh thần."
+  },
+  {
+    "scientific_name": "Ficus pumila",
+    "common_name": "Cây si dây leo",
+    "description": "Cây thân leo, lá nhỏ, bám tường đẹp.",
+    "light": "Ánh sáng trung bình.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "3 lần/tuần.",
+    "fengshui": "Tượng trưng cho sự gắn kết và vững bền."
+  },
+  {
+    "scientific_name": "Cordyline fruticosa",
+    "common_name": "Cây huyết dụ đỏ",
+    "description": "Lá đỏ tím nổi bật, dùng trang trí sân vườn, cổng nhà.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Mang lại may mắn và bảo vệ gia chủ."
+  },
+  {
+    "scientific_name": "Bougainvillea spectabilis",
+    "common_name": "Cây hoa giấy",
+    "description": "Cây leo, hoa nhiều màu, nở quanh năm, ưa nắng.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Giữ ẩm vừa.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Tượng trưng cho sự sung túc và bền vững."
+  },
+  {
+    "scientific_name": "Ixora coccinea",
+    "common_name": "Cây trang đỏ",
+    "description": "Hoa chùm đỏ tươi, nở quanh năm, dễ trồng.",
+    "light": "Ánh sáng mạnh.",
+    "water": "Giữ ẩm vừa.",
+    "watering_frequency": "3 lần/tuần.",
+    "fengshui": "Mang lại may mắn, hòa thuận gia đình."
+  },
+  {
+    "scientific_name": "Camellia japonica",
+    "common_name": "Cây trà kiểng",
+    "description": "Hoa đẹp, lá bóng, thường được trồng bonsai.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Giữ ẩm đất.",
+    "watering_frequency": "2 lần/tuần.",
+    "fengshui": "Biểu tượng cho sự thanh khiết và cao quý."
+  },
+  {
+    "scientific_name": "Schefflera actinophylla",
+    "common_name": "Cây chân chim",
+    "description": "Cây thân gỗ nhỏ, lá tỏa tròn như bàn tay, dễ sống.",
+    "light": "Ánh sáng gián tiếp.",
+    "water": "Giữ ẩm nhẹ.",
+    "watering_frequency": "2–3 lần/tuần.",
+    "fengshui": "Tượng trưng cho hòa hợp và may mắn."
+  }
+]

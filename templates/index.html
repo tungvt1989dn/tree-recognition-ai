@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhận dạng cây cảnh</title>
+    <style>
+        body { font-family: Arial; text-align:center; padding:50px; }
+        input, button { font-size:16px; padding:8px; margin:5px; }
+        .result { font-weight:bold; margin-top:20px; font-size:18px; color:green; }
+    </style>
+</head>
+<body>
+    <h1>🌿 Nhận dạng cây cảnh bằng AI</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <br>
+        <button type="submit">Nhận dạng cây</button>
+    </form>
+
+    {% if result %}
+        <div class="result">🌱 Kết quả: {{ result }}</div>
+    {% endif %}
+</body>
+</html>
