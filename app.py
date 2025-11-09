@@ -5,9 +5,8 @@ import torch.nn as nn
 import torchvision.transforms as transforms
 
 # -------------------------------
-# 1. Cấu hình model
+# 1. Model
 # -------------------------------
-# Thay MyModelClass bằng class model bạn train
 class MyModelClass(nn.Module):
     def __init__(self, num_classes=15):
         super(MyModelClass, self).__init__()
@@ -17,13 +16,11 @@ class MyModelClass(nn.Module):
     def forward(self, x):
         return self.model(x)
 
-# Khởi tạo model
-num_classes = 15  # thay số lớp theo dataset
+num_classes = 15
 model = MyModelClass(num_classes=num_classes)
-model.load_state_dict(torch.load("model.pth", map_location="cpu"))  # load state_dict
+model.load_state_dict(torch.load("model.pth", map_location="cpu"))
 model.eval()
 
-# Class labels (thay bằng tên cây bạn dùng trong dataset)
 class_names = [
     "cay-chuoi-ngoc", "cay-ke-bac", "cay-vu-sua", "hoa-hong", "hoa-hong-mon", "hoa-ram-but"
 ]
@@ -45,17 +42,14 @@ st.write("Upload ảnh cây cảnh và nhận dự đoán từ AI")
 uploaded_file = st.file_uploader("Chọn ảnh", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
-    # Hiển thị ảnh
     image = Image.open(uploaded_file).convert("RGB")
     st.image(image, caption="Ảnh bạn vừa upload", use_column_width=True)
     
-    # Xử lý ảnh
-    input_tensor = transform(image).unsqueeze(0)  # batch dimension
+    input_tensor = transform(image).unsqueeze(0)
     with torch.no_grad():
         outputs = model(input_tensor)
         probs = torch.softmax(outputs, dim=1)[0]
     
-    # Top 3 dự đoán
     top3_prob, top3_idx = torch.topk(probs, 3)
     st.write("### Top 3 dự đoán:")
     for i in range(3):
