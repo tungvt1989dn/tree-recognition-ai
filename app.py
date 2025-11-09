@@ -1,37 +1,62 @@
-# app.py
 import streamlit as st
 from PIL import Image
 import torch
-from torchvision import transforms
-import torch.nn.functional as F
+import torch.nn as nn
+import torchvision.transforms as transforms
 
-# --- Load model ---
-model = torch.load('model.pth', map_location='cpu')
+# -------------------------------
+# 1. Cấu hình model
+# -------------------------------
+# Thay MyModelClass bằng class model bạn train
+class MyModelClass(nn.Module):
+    def __init__(self, num_classes=15):
+        super(MyModelClass, self).__init__()
+        self.model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet18', pretrained=True)
+        self.model.fc = nn.Linear(self.model.fc.in_features, num_classes)
+    
+    def forward(self, x):
+        return self.model(x)
+
+# Khởi tạo model
+num_classes = 15  # thay số lớp theo dataset
+model = MyModelClass(num_classes=num_classes)
+model.load_state_dict(torch.load("model.pth", map_location="cpu"))  # load state_dict
 model.eval()
 
-# --- Preprocessing ---
+# Class labels (thay bằng tên cây bạn dùng trong dataset)
+class_names = [
+    "cay-chuoi-ngoc", "cay-ke-bac", "cay-vu-sua", "hoa-hong", "hoa-hong-mon", "hoa-ram-but"
+]
+
+# -------------------------------
+# 2. Transform ảnh
+# -------------------------------
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
 ])
 
-# --- Danh sách cây ---
-class_names = ["cay-chuoi-ngoc", "cay-ke-bac", "cay-vu-sua", "hoa-hong", "hoa-hong-mon", "hoa-ram-but"]
+# -------------------------------
+# 3. Streamlit UI
+# -------------------------------
+st.title("AI Nhận Diện Cây Cảnh 🌿")
+st.write("Upload ảnh cây cảnh và nhận dự đoán từ AI")
 
-# --- Giao diện Streamlit ---
-st.set_page_config(page_title="AI Nhận diện cây cảnh 🌿", layout="wide")
-st.title("🌿 AI Nhận diện cây cảnh")
+uploaded_file = st.file_uploader("Chọn ảnh", type=["jpg", "jpeg", "png"])
 
-uploaded = st.file_uploader("Tải ảnh cây cảnh lên:", type=["jpg", "png", "jpeg"])
-
-if uploaded:
-    image = Image.open(uploaded).convert("RGB")
-    st.image(image, caption="Ảnh bạn đã tải lên", use_column_width=True)
-
-    img_tensor = transform(image).unsqueeze(0)
+if uploaded_file is not None:
+    # Hiển thị ảnh
+    image = Image.open(uploaded_file).convert("RGB")
+    st.image(image, caption="Ảnh bạn vừa upload", use_column_width=True)
+    
+    # Xử lý ảnh
+    input_tensor = transform(image).unsqueeze(0)  # batch dimension
     with torch.no_grad():
-        outputs = model(img_tensor)
-        probs = F.softmax(outputs, dim=1)
-        top_prob, top_class = probs.max(1)
-
-    st.success(f"✅ Dự đoán: {class_names[top_class.item()]} ({top_prob.item()*100:.2f}%)")
+        outputs = model(input_tensor)
+        probs = torch.softmax(outputs, dim=1)[0]
+    
+    # Top 3 dự đoán
+    top3_prob, top3_idx = torch.topk(probs, 3)
+    st.write("### Top 3 dự đoán:")
+    for i in range(3):
+        st.write(f"{i+1}. {class_names[top3_idx[i]]} ({top3_prob[i].item()*100:.2f}%)")
